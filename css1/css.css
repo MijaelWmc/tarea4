@@ -1,0 +1,42 @@
+.contenedor{
+    background-color: red;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas:"til til til"
+                        "menu menu menu"
+                        "car1 car2 car3"
+                        "pie pie pie";
+}
+.til{
+    background-color: aquamarine;
+    grid-area: til;
+    padding: 5px;
+    text-align: center;
+}
+.menu{
+    background-color: azure;
+    grid-area: menu;
+}
+.car1{
+    background-color: azure;
+    grid-area:car1;
+}
+.car2{
+    background-color: azure;
+    grid-area:car2;
+}
+.car3{
+    background-color: azure;
+    grid-area:car3;
+}
+.pie{
+    background-color: aquamarine;
+    grid-area:pie;
+    text-align: center;
+}
+.pepe{
+    width: 516px;
+    height: 450px;
+}
